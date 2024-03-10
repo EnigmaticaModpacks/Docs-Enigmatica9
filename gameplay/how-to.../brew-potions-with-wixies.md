@@ -48,3 +48,29 @@ With all the Potion Jars setup and locked, the Wixie will cycle through each pot
 {% hint style="info" %}
 A single wixie can craft as many different potions as can fit around her cauldron. Theoretically, this would mean up to 26 different potion steps as they can be bothabove and below.
 {% endhint %}
+
+## Potion Melding
+
+With Ars Nouveau, it is possible to combine multiple potion effects into a single potion. This is called Melding and is a great way to compactly carry many potion doses in their Flasks. Melding potions will also boost the amount of Source produced when combined with an Alchemical Sourcelink.&#x20;
+
+When brewing potions for use with an Alchemical Sourcelink, three attributes factor into the calculation of how much Source will be produced: Duration, Strength, and number of Melds. Of those three, melding provides the greatest boost; a melded potion will easily provide more source than the two unmelded potions would have separately.
+
+Setting this up doesn't require much additional effort when using a Wixie setup as the one above. We'll only need a few extra blocks
+
+* 1x Potion Melder
+* 1x Potion Jar
+* 1x Source Jar
+
+Below we can see an expanded Wixie setup similar to the first. In this one, we're now brewing Potions of Spell Damage II on the left and Mana Regeneration II on the right.&#x20;
+
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption><p>Busy Busy</p></figcaption></figure>
+
+In order to meld these two potions, we'll place down the Melder and Potion Jar nearby. The Potion Melder will need to be within 3 blocks of our two input Potion jars. The output Potion Jar will need to be similarly close.&#x20;
+
+Looking at the Melder will display any issues there are with the current setup. Below, we have not yet linked any of the Potion Jars. To link them, simply Right-Click one of the input jars, then Right-Click the Melder. Repeat for the second input. Finally Right-Click the Melder and then Right Click the output Jar.&#x20;
+
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption><p>No linked jars</p></figcaption></figure>
+
+In short order, the melded potion will appear in the output Potion Jar.
+
+<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
