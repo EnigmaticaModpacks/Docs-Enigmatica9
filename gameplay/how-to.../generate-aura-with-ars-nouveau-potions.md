@@ -46,7 +46,7 @@ We'll work through what all of that means in a moment. First, let's look at the 
 We've re-arranged things slightly here, moving the Source Jar out of the way to give us easier access to the Turret. The Aura Detector has been placed next to the Lingering Absorber to accurately read the local Aura level. Finally, the RLC has been placed between the Aura Detector and the Redstone Pen line running into the Turret.
 
 {% hint style="info" %}
-The colors on the outside of the RLC correspond with the variables used in the expression where R is Red and Y is Yellow. If your RLC is placed differently, be sure to adjust those variables. The appropriate variables can be seen in the GUI itself.
+The colors on the outside of the RLC correspond with the variables used in the expression where R is Red and Y is Yellow. If your RLC is placed differently, be sure to adjust those variables. The appropriate variables can be seen in the GUI itself. For more information, refer to their [documentation](https://github.com/stfwi/redstonepen/tree/master/documentation/redstone-logic-control).
 {% endhint %}
 
 So let's walk through that expression. First, the IF statement works as follows `IF(Condition, Output if True, Output if False)` In our condition, we're comparing the comparator output of Y to 13.  If it is greater than or equal to 13, we output 0 on R. If it is less than 13, the `TIV()` function will output a pulse every of 100 ticks.&#x20;
